@@ -2,6 +2,10 @@
 
 Utility for updating Godot audio bus range definitions from a transient-analysis CSV summary.
 
+## Status
+
+Repository-ready extraction from a larger local project. Intended for controlled project-file rewrites rather than general-purpose CSV editing.
+
 ## What It Does
 
 - reads `master_summary.csv`
@@ -25,3 +29,8 @@ Utility for updating Godot audio bus range definitions from a transient-analysis
 ```bash
 ./scripts/update_audio_bus_ranges.sh master_summary.csv LevelConfiguration.gd
 ```
+
+## Notes
+
+- the script rewrites the target GDScript file in place
+- CI validates shell syntax and static analysis
