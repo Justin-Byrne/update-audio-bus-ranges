@@ -4,7 +4,11 @@ Utility for updating Godot audio bus range definitions from a transient-analysis
 
 ## Status
 
-Repository-ready extraction from a larger local project. Intended for controlled project-file rewrites rather than general-purpose CSV editing.
+Standalone repository extracted from a larger local project.
+
+Current release: `v0.1.0`
+
+Intended for controlled project-file rewrites where transient-analysis output needs to be folded back into authored Godot configuration code.
 
 ## What It Does
 
